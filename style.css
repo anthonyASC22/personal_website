@@ -37,11 +37,82 @@ body{
 }
 
 .image_control{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/picture.jpg);
+    height: 600px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.image2{
-    width: 1800px;
-    max-height: 600px;
+.about_me{
+    text-align: center;
+}
+
+.about_pic{
+    width: 800px;
+    height: 550px;
+}
+
+.about_p{
+    font-size: 150%;
+}
+
+.academics{
+    display: flex;
+}
+
+.academics_list{
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text1{
+    font-size: 200%;
+}
+
+.text2{
+    font-size: 130%;
+    margin-left: 75px;
+    width: 1700px;
+}
+
+.all_extra{
+    display: flex;
+    flex-direction: row;
+}
+
+.extra_curricular{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 800px;
+}
+
+.seo_text{
+    text-align: center;
+    font-size: 170%;
+}
+
+.extra_curricular2{
+    
+    display:flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 800px;
+}
+
+.ASC{
+    height: 450px;
+}
+
+.ASC_text{
+    text-align: center;
+    font-size: 170%;
 }
